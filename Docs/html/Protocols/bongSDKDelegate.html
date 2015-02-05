@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>bongSDKDelegate Protocol Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1333)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">bongSDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">Ginshell</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/bongSDKDataFetchStatusDidChange:error:">- bongSDKDataFetchStatusDidChange:error:</option>
+		
+		<option value="//api/name/bongSDKDidAutherize:">- bongSDKDidAutherize:</option>
+		
+		<option value="//api/name/bongSDKDidFetchBriefActivity:error:">- bongSDKDidFetchBriefActivity:error:</option>
+		
+		<option value="//api/name/bongSDKDidFetchDetailedDayActivity:error:">- bongSDKDidFetchDetailedDayActivity:error:</option>
+		
+		<option value="//api/name/bongSDKDidRun:">- bongSDKDidRun:</option>
+		
+		<option value="//api/name/bongSDKDidScanbongIIWithPressYesKey:">- bongSDKDidScanbongIIWithPressYesKey:</option>
+		
+		<option value="//api/name/bongSDKDidStop:">- bongSDKDidStop:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">bongSDKDelegate Protocol Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Conforms to</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>bongSDKDelegate.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p><code>bongSDKDelegate</code> 作为 <a href="../Classes/bongSDK.html"><code>bongSDK</code></a> 的委托协议，处理数据获取、启动、结束等回调信息</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/bongSDKDidRun:" title="bongSDKDidRun:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/bongSDKDidRun:">&ndash;&nbsp;bongSDKDidRun:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p><a href="../Classes/bongSDK.html">bongSDK</a> <code>run</code> 回调</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)bongSDKDidRun:(bongSDKErrorCode)<em>code</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">bongSDKDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/bongSDKDidStop:" title="bongSDKDidStop:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/bongSDKDidStop:">&ndash;&nbsp;bongSDKDidStop:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p><a href="../Classes/bongSDK.html">bongSDK</a> <code>stop</code> 回调</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)bongSDKDidStop:(bongSDKErrorCode)<em>code</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">bongSDKDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/bongSDKDidAutherize:" title="bongSDKDidAutherize:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/bongSDKDidAutherize:">&ndash;&nbsp;bongSDKDidAutherize:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>授权回调</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)bongSDKDidAutherize:(bongSDKErrorCode)<em>errorCode</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>errorCode</code></th>
+						<td><p>为 <code>bongSDKErrorCodeNone</code> 表示返回成功</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">bongSDKDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/bongSDKDidScanbongIIWithPressYesKey:" title="bongSDKDidScanbongIIWithPressYesKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/bongSDKDidScanbongIIWithPressYesKey:">&ndash;&nbsp;bongSDKDidScanbongIIWithPressYesKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p><a href="../Classes/bongSDK.html">bongSDK</a> 扫描到 bongII 时的回调</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)bongSDKDidScanbongIIWithPressYesKey:(YESKeyTouchType)<em>touchType</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>目前 bongII 在触摸 Yes! 键时才会被扫描到，
+根据 <code>YesKeyTouchType</code> 来区分长按、短按，或非触摸类型</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">bongSDKDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/bongSDKDataFetchStatusDidChange:error:" title="bongSDKDataFetchStatusDidChange:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/bongSDKDataFetchStatusDidChange:error:">&ndash;&nbsp;bongSDKDataFetchStatusDidChange:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>手环数据获取状态回调</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)bongSDKDataFetchStatusDidChange:(bongSDKDataFetchStatus)<em>status</em> error:(NSError *)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>status</code></th>
+						<td><p><a href="../Constants/bongSDKDataFetchStatus.html"><code>bongSDKDataFetchStatus</code></a>，状态。返回 <code>bongSDKDataFetchStatusSucceed</code>，同步成功，<code>bongSDKDataFetchStatusFailed</code> 同步失败</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p><code>NSError</code>，返回更详细的错误信息</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">bongSDKDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/bongSDKDidFetchBriefActivity:error:" title="bongSDKDidFetchBriefActivity:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/bongSDKDidFetchBriefActivity:error:">&ndash;&nbsp;bongSDKDidFetchBriefActivity:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>综合数据回调</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)bongSDKDidFetchBriefActivity:(BriefActivity *)<em>activity</em> error:(NSError *)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>activity</code></th>
+						<td><p><a href="../Classes/BriefActivity.html"><code>BriefActivity</code></a> 一天的简明活动数据</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p><code>NSError</code> 详细错误信息</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">bongSDKDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/bongSDKDidFetchDetailedDayActivity:error:" title="bongSDKDidFetchDetailedDayActivity:error:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/bongSDKDidFetchDetailedDayActivity:error:">&ndash;&nbsp;bongSDKDidFetchDetailedDayActivity:error:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>详细数据回调，</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)bongSDKDidFetchDetailedDayActivity:(DetailedDayActivity *)<em>activity</em> error:(NSError *)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>activity</code></th>
+						<td><p><a href="../Classes/DetailedDayActivity.html"><code>DetailedDayActivity</code></a> 一天的详细活动数据</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p><code>NSError</code> 详细错误信息</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">bongSDKDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2015 Ginshell. All rights reserved. Updated: 2015-01-26</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1333)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>
