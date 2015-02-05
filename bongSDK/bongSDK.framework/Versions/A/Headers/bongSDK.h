@@ -24,6 +24,11 @@
 @interface bongSDK : NSObject
 
 /**
+ *  bongSDK 版本号
+ */
++ (NSString *)version;
+
+/**
  *  初始化 bongSDK
  *
  *  初始化时需配置 bongSDK 的必要信息，具体可参考：
