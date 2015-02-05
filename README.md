@@ -11,6 +11,7 @@ bongSDK 是 [bong 智能手环](http://bong.cn) [开放平台](http://bong.cn/sh
 
 * iOS 7.0+/ Mac OS X 10.9+
 * Xcode 6.1
+* bong II，固件 1.2.5+
 
 ## 安装
 
