@@ -25,7 +25,10 @@
 
 - (void)viewDidLoad {
   [super viewDidLoad];
-  
+
+  // bongSDK 版本号
+  NSLog(@"bongSDK version: %@", [bongSDK version]);
+
   // bongSDK 配置，此处替换成自己的配置
   [bongSDK setAppID:@"1419735044202"
           appSecret:@"558860f5ba4546ddb31eafeee11dc8f4"
