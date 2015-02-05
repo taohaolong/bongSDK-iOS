@@ -117,7 +117,8 @@
   self.isFetching = YES;
   
   NSLog(@"开始获取手环数据");
-  [bongSDK fetchbongIIDataWithStartDate:nil endDate:nil];
+  NSDate *endDate = [NSDate date];
+  [bongSDK fetchbongIIDataWithStartDate:[NSDate dateWithTimeInterval:-7*24*60*60 sinceDate:endDate] endDate:nil];
 }
 
 - (void)bongSDKDataFetchStatusDidChange:(bongSDKDataFetchStatus)status error:(NSError *)error {
