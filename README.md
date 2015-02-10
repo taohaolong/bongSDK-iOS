@@ -17,6 +17,8 @@ bongSDK 是 [bong 智能手环](http://bong.cn) [开放平台](http://bong.cn/sh
 
 将 `bongSDK.framework` 拖入 Xcode 项目中，根据项目目录选择是否勾选 `Copy items if needed` 选项。然后在 `TARGETS` 的 `Build Settings`中，找到 `Other Linker Flags`，加入 `$(OTHER_LDFLAGS) -ObjC`。
 
+bongSDK 需要添加 `AFNetworking`、`JSONModel` 以及 `MBProgressHUD`这三个第三方库的依赖，具体配置可参考 `Example`。
+
 ---
 
 ## 使用
