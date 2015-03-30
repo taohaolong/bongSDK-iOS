@@ -30,11 +30,11 @@
   NSLog(@"bongSDK version: %@", [bongSDK version]);
 
   // bongSDK 配置，此处替换成自己的配置
-  [bongSDK setAppID:@"1415266387250"
-          appSecret:@"7d9b930cabff430a96adce868f90fc85"
-             appKey:@"f0deb6e9eb167c23ec627e46f804510037b55322"];
+  [bongSDK setAppID:@"1419735044202"
+          appSecret:@"558860f5ba4546ddb31eafeee11dc8f4"
+             appKey:@"7ae31974a95fec07ad3d047c075b11745d8ce989"];
   // 设置开发者环境，即服务器为测试环境
-  [bongSDK enableDevelepMode:NO];
+  [bongSDK enableDevelepMode:YES];
   // 添加 bongSDKDelegate
   [bongSDK addDelegate:self];
 }
@@ -119,7 +119,7 @@
   NSLog(@"开始获取手环数据");
   NSDate *endDate = [NSDate date];
   // 1.2.5 固件以上，手环最多存储 7 天数据；1.2.5 固件以下此接口不可用
-  [bongSDK fetchbongIIDataWithStartDate:[NSDate dateWithTimeInterval:-3*24*60*60 sinceDate:endDate] endDate:nil];
+  [bongSDK fetchbongIIDataWithStartDate:[NSDate dateWithTimeInterval:-30*60 sinceDate:endDate] endDate:nil];
 }
 
 - (void)bongSDKDataFetchStatusDidChange:(bongSDKDataFetchStatus)status error:(NSError *)error {
