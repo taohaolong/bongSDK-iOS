@@ -119,7 +119,7 @@
   NSLog(@"开始获取手环数据");
   NSDate *endDate = [NSDate date];
   // 1.2.5 固件以上，手环最多存储 7 天数据；1.2.5 固件以下此接口不可用
-  [bongSDK fetchbongIIDataWithStartDate:[NSDate dateWithTimeInterval:-30*60 sinceDate:endDate] endDate:nil];
+  [bongSDK fetchbongIIDataWithStartDate:[NSDate dateWithTimeInterval:-10*60 sinceDate:endDate] endDate:nil];
 }
 
 - (void)bongSDKDataFetchStatusDidChange:(bongSDKDataFetchStatus)status error:(NSError *)error {
