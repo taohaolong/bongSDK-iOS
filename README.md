@@ -25,6 +25,10 @@ bongSDK 需要添加 `AFNetworking`、`JSONModel` 以及 `MBProgressHUD`这三�
 
 如果你不了解 bong 的开发平台授权过程，请先移步 [bong 开放平台](https://github.com/Ginshell/bongOpenPlatform/) 阅读相关文档。
 
+## bong T
+
+开放环境需要注册测试帐号，请到 [此处](http://fir.im/1os9/) 下载 `bong T`，并注册。测试帐号和正式帐号是不同的。
+
 ### 初始化
 ```Obj-C
   [bongSDK setAppID:appID appSecret:appSecret appKey:appKey];
